@@ -2,21 +2,17 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-header{
-    height: 150px;
-}
-
 h1{
-    font-size: 80px;
+    font-size: 60px;
     vertical-align: middle;
 }
 
 h2{
-    font-size: 48px;
+    font-size: 36px;
 }
 
 p{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 h1, .encart{
