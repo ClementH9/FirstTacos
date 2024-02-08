@@ -27,15 +27,18 @@ h1, .encart{
 }
 
 .encart-commande{
-    background-color: darkgray;
+    background-color: #303030;
+    color: white;
 }
 
 .encart-livraison{
-    background-color: lightcoral;
+    background-color: black;
+    color: white;
 }
 
 .encart-certification{
-    background-color: lightgreen;
+    background-color: #303030;
+    color: white;
 }
 
 button{
