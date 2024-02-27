@@ -41,7 +41,7 @@ h1, .encart{
     color: white;
 }
 
-button{
+.button-order button {
     box-sizing: border-box;
     cursor: pointer;
     border: none;
@@ -55,8 +55,7 @@ button{
     color: black;
     font-size: 20px;
     box-shadow: 0px 4px 5px 1px #cacbcb;
-    transform: scale(1);
-    transition : transform 250ms;
+    transition: transform 250ms;
 }
 
 .button-order{
@@ -64,7 +63,7 @@ button{
     justify-content: space-evenly;
 }
 
-.button-order :hover{
+.button-order button:hover {
     opacity: 0.9;
     transform: scale(1.1);
     box-shadow: 0px 4px 5px 1px #cacbcb;
@@ -76,9 +75,9 @@ button{
 }
 
 .avert-sante{
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .mangerbouger{
-    font-size: 14px;
+    font-size: 10px;
 }
