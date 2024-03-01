@@ -7,7 +7,7 @@ const EncartCommande = () => {
         <section className="encart encart-commande">
             <div>
                 <h2>Commandez en ligne</h2>
-                <p className="infos-livraison">Nous vous proposons tacos, burgers, kapsalons, buckets et couscous faits maison</p>
+                <p className="infos-livraison">Nous vous proposons des tacos, burgers, kapsalons, buckets et couscous faits maison</p>
             </div>
             <div className="button-order">
                 <a href="https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=398049e0-2a0d-431a-9580-811ad27003ae"><button><FontAwesomeIcon icon={faAt} /> Commande en ligne</button></a>
