@@ -41,9 +41,9 @@ h1, .encart{
     color: white;
 }
 
-.encart-certification{
-    background-color: #303030;
-    color: white;
+.encart-certif{
+    background-color: white;
+    color: black;
 }
 
 .button-order button {
@@ -75,17 +75,20 @@ h1, .encart{
 }
 
 
-footer{
+.footer{
     background-color: black;
     color:whitesmoke;
+    text-align: center;
 }
 
 .avert-sante{
     font-size: 14px;
+
 }
 
 .mangerbouger{
     font-size: 10px;
+
 }
 
 /* Responsive Version Mobile */

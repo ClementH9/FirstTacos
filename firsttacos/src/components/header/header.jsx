@@ -6,7 +6,7 @@ const Header = () => {
     return (
     <header>
         <h1>FIRST TACOS</h1>
-        <p class="adresse"><FontAwesomeIcon icon={faLocationDot} /> 5 rue Jean Jaurès, 59290 Wasquehal</p>
+        <p className="adresse"><FontAwesomeIcon icon={faLocationDot} /> 5 rue Jean Jaurès, 59290 Wasquehal</p>
     </header>
     )
   };
