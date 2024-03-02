@@ -57,7 +57,7 @@ h1, .encart{
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background: black;
+  background: linear-gradient(black, #252525);
   border-radius: 50px;
   color: white;
   font-size: 20px;
@@ -98,7 +98,9 @@ h1, .encart{
   top: 5%; /* Positionne le texte au milieu de la carte */
   left: 50%; /* Positionne le texte au milieu de la carte */
   transform: translate(-50%, -50%); /* Centre le texte parfaitement au milieu */
-  color: goldenrod; /* Assure la lisibilité du texte en ajustant la couleur */
+  background: linear-gradient(orange, goldenrod); /* Dégradé de gold à goldenrod pour le texte */
+  -webkit-background-clip: text; /* Utilisez le dégradé comme masque pour le texte */
+  color: transparent; /* Rend le texte transparent pour montrer le dégradé en arrière-plan */
 }
 
 .style-script {
