@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/header/header';
+import EncartProduits from './components/encarts/encart-produits'
 import EncartCommande from './components/encarts/encart-commande';
 import EncartLivraison from './components/encarts/encart-livraison';
 import EncartCertif from './components/encarts/encart-certif';
@@ -12,6 +13,7 @@ function App() {
   <div class="container">
     <main>
       <Header />
+      <EncartProduits />
       <EncartCommande />
       <EncartLivraison />
       <EncartCertif />

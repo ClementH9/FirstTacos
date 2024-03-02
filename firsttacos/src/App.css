@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 *{
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -33,12 +36,12 @@ h1, .encart{
 
 .encart-commande{
   background-color: #303030;
-  color: gold;
+  color: goldenrod;
 }
 
 .encart-livraison{
   background-color: black;
-  color: gold;
+  color: goldenrod;
 }
 
 .encart-certif{
@@ -58,7 +61,7 @@ h1, .encart{
   border-radius: 50px;
   color: white;
   font-size: 20px;
-  border: 2px solid gold; /* Bordure dorée par défaut pour tous les boutons */
+  border: 2px solid goldenrod; /* Bordure dorée par défaut pour tous les boutons */
   transition: transform 250ms, opacity 250ms; /* Ajout de la transition pour le survol */
 }
 
@@ -71,7 +74,48 @@ h1, .encart{
 .button-order button:hover {
   opacity: 0.8;
   transform: scale(1.1);
-  border-color: gold !important; /* Ajout de !important pour renforcer la spécificité */
+  border-color: goldenrod !important; /* Ajout de !important pour renforcer la spécificité */
+}
+
+.img-halal{
+  width: 200px;
+  height: 200px;
+}
+
+.div-produits {
+  display: flex;
+  justify-content: center;
+}
+
+.card-produit {
+  position: relative; /* Ajoutez cette propriété pour rendre la position relative */
+}
+
+.titre-produit {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 40px;
+  position: absolute; /* Ajoutez cette propriété pour rendre la position absolue */
+  top: 5%; /* Positionne le texte au milieu de la carte */
+  left: 50%; /* Positionne le texte au milieu de la carte */
+  transform: translate(-50%, -50%); /* Centre le texte parfaitement au milieu */
+  color: goldenrod; /* Assure la lisibilité du texte en ajustant la couleur */
+}
+
+.style-script {
+  font-family: 'Dancing Script', sans-serif;
+  position: absolute; /* Ajoutez cette propriété pour rendre la position absolue */
+  top: 20%; /* Positionne le texte au milieu de la carte */
+  left: 50%; /* Positionne le texte au milieu de la carte */
+  transform: translate(-50%, -50%); /* Centre le texte parfaitement au milieu */
+  color: white; /* Assure la lisibilité du texte en ajustant la couleur */
+}
+
+.black-white {
+  filter: grayscale(100%) brightness(0.5);
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 1); /* Couleur noire semi-transparente */
 }
 
 
@@ -113,6 +157,16 @@ h1, .encart{
 
   p{
       font-size: 14px;
+  }
+
+  .div-produits {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .black-white {
+    width: 100%;
+    height: 250px;
   }
   
   .avert-sante{
