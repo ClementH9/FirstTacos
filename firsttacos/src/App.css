@@ -34,6 +34,11 @@ h1, .encart{
   text-align: center;
 }
 
+.fa-location-dot{
+  font-size: 18px;
+  padding-right: 5px;
+}
+
 .encart-commande{
   background-color: #303030;
   color: goldenrod;
