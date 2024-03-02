@@ -7,8 +7,8 @@ const EncartCommande = () => {
 
 <section className="encart encart-livraison">
     <h2><FontAwesomeIcon icon={faTruck} /> Livraison</h2>
-    <p className="infos-livraison">Faites-vous livrer GRATUITEMENT en 45 minutes</p>
-    <p className="lieux-livraison">Nous livrons le soir sur Croix et Wasquehal (à partir de 13€)</p>
+    <p className="infos-livraison">Faites-vous livrer GRATUITEMENT en 45 minutes.</p>
+    <p className="lieux-livraison">Nous livrons le soir sur Croix et Wasquehal (à partir de 13€).</p>
 </section>
 
     )

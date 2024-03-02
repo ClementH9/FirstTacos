@@ -1,7 +1,7 @@
 import React from 'react';
 import tacosImage from "../../Assets/tacos.jpeg"
 import burgerImage from '../../Assets/burger.jpeg';
-import kapsalonImage from "../../Assets/kapsalon.jpeg"
+import kapsalonImage from "../../Assets/kapsalon.jpeg";
 
 const EncartProduits = () => {
     return (
