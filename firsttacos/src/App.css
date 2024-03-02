@@ -57,11 +57,11 @@ h1, .encart{
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background: black;
+  background: linear-gradient(goldenrod, orange); /* Dégradé de gold à goldenrod */
   border-radius: 50px;
-  color: white;
+  color: black;
   font-size: 20px;
-  border: 2px solid goldenrod; /* Bordure dorée par défaut pour tous les boutons */
+  border: 2px solid white; /* Bordure dorée par défaut pour tous les boutons */
   transition: transform 250ms, opacity 250ms; /* Ajout de la transition pour le survol */
 }
 
@@ -85,6 +85,7 @@ h1, .encart{
 .div-produits {
   display: flex;
   justify-content: center;
+  padding-bottom: 0px;
 }
 
 .card-produit {
