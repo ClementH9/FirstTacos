@@ -9,7 +9,7 @@ const EncartProduits = () => {
             <div className="card-produit card-tacos">
                 <img src={tacosImage} alt="tacos" className="img-produit black-white"/>
                 <h1 className="titre-produit">Tacos</h1>
-                <h2 className="titre-produit style-script">Signature</h2>
+                <h2 className="style-script">Signature</h2>
             </div>
             <div className="card-produit card-burger">
                 <img src={burgerImage} alt="burger" className="img-produit black-white"/>

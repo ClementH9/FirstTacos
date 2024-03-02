@@ -78,8 +78,8 @@ h1, .encart{
 }
 
 .img-halal{
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
 }
 
 .div-produits {
@@ -112,7 +112,7 @@ h1, .encart{
 
 .black-white {
   filter: grayscale(100%) brightness(0.5);
-  width: 100%;
+  width: 99%;
   height: 330px;
   object-fit: cover;
   background-color: rgba(0, 0, 0, 1); /* Couleur noire semi-transparente */
