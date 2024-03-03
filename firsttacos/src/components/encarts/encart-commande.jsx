@@ -5,6 +5,9 @@ import { faAt, faPhone } from '@fortawesome/free-solid-svg-icons';
 const EncartCommande = () => {
     return (
         <section className="encart encart-commande">
+            <div className="texte-autres-produits">
+                Mais aussi buckets, salades et couscous faits maison (sur commande).
+            </div>
             <div>
                 <h2>Commandez en ligne</h2>
             </div>
